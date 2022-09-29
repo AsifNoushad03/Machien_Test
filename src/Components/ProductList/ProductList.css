@@ -1,0 +1,34 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.paginationBttns{
+    width: 80%;
+    height: 40%;
+    list-style: none;
+    display: flex;
+}
+
+.paginationBttns a {
+    padding:10px;
+    margin :8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color:#2b2eff ;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover{
+    color: white;
+    background-color: #2b2eff;
+}
+
+.paginationActive a{
+    color: white;
+    background-color: #2b2eff;
+}
+
